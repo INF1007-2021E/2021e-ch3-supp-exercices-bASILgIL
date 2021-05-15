@@ -42,12 +42,12 @@ def bills(value):
 	return (twenties, tens, fives, ones);
 
 if __name__ == "__main__":
-	#print(dissipated_power(69, 420))
-	#print(dissipated_power(42, 9000))
-	#print(average([1, 4, -1, 10]))
-	#print(average([1, 4, -1, 10, 0]))
-	#print(average([-12, -42, 1]))
-	#print(average([0xDEAD, 0xBEEF, 420, 69]))
+	print(dissipated_power(69, 420))
+	print(dissipated_power(42, 9000))
+	print(average([1, 4, -1, 10]))
+	print(average([1, 4, -1, 10, 0]))
+	print(average([-12, -42, 1]))
+	print(average([0xDEAD, 0xBEEF, 420, 69]))
 	print(bills(0))
 	print(bills(1))
 	print(bills(5))
